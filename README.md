@@ -47,7 +47,21 @@ Digest Auth Strategy
 Digest strategy is explained in passport library which is mentioned above. 
 NOTE: For basic auth and digest auth strategy  you have to use the following authorization in postman:
 
+# Api Secure With JWT
+### Read this first then use second one for refreshing token technique
+https://github.com/auth0/node-jsonwebtoken
+https://solidgeargroup.com/refresh-token-with-jwt-authentication-node-js (For Refereshing Token (Recommended Approach))
+Source Code: This project code is done in crud-mean/nodejs
+
+### Video: 
+1.	Node.js API Authentication With JWT – YouTube (in the folder)
+2.	 https://www.youtube.com/watch?v=B8suR11BtXg
+
 # Basic Authorization
+https://prntscr.com/l1dqe3
+
+# DIGEST AUTHORIZATION
+https://prntscr.com/l1drb9
 
 # For Materialize CSS
 

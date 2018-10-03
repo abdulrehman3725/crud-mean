@@ -54,7 +54,7 @@ https://solidgeargroup.com/refresh-token-with-jwt-authentication-node-js (For Re
 Source Code: This project code is done in crud-mean/nodejs
 
 ### Video: 
-1.	Node.js API Authentication With JWT – YouTube (in the folder)
+1.	 https://www.youtube.com/watch?v=7nafaH9SddU
 2.	 https://www.youtube.com/watch?v=B8suR11BtXg
 
 # Basic Authorization

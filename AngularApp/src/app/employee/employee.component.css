@@ -1,0 +1,7 @@
+button:disabled {
+    background-color: black !important;
+ }
+
+ button:enabled{
+     background-color: brown;
+ }

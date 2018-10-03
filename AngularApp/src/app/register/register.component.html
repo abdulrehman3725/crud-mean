@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="card teal lighten-5" style="margin-top:5%; margin-left: auto; margin-right: auto; width:50%;">
+      <h4 class="teal lighten white-text" align="center" style="padding:4%;">Register</h4>
+      <div class="card-content">
+        <div class="row">
+          <form class="col s12" [formGroup]='registerForm'>
+            <div class="row">
+              <div class="input-field col s12">
+                <input formControlName='email' id="email" type="email" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                  <input formControlName='username' id="username" type="text" class="validate">
+                  <label for="username">Username</label>
+                </div>
+              </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <input formControlName='password' id="password" type="password" class="validate">
+                <label for="password">Password</label>
+              </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                  <input formControlName='cpass' id="cpassword" type="password" class="validate">
+                  <label for="cpass">Confirm Password</label>
+                </div>
+              </div>
+            <div class="row">
+              <div class="center">
+                  <button type="submit" class="waves-effect waves-light btn-large teal lighter;" (click)="register()">Register</button>
+                  &nbsp;<input class="waves-effect waves-light btn-large teal lighter;" (click)="moveToLogin()" id="login" type="button" value="Login">
+              </div>
+            </div>
+          </form>
+        </div>  
+      </div>
+    </div>
+  </div>
+  
+  

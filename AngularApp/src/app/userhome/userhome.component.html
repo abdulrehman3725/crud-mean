@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="card teal" style="margin-top:5%; padding-left:1%; padding-right:1%; padding-bottom:6%; margin-left: auto; margin-right: auto; width:70%;">
+    <div class="card-content white-text" style="margin:5%;">
+          <h1 style="font-weight: lighter;">Hello, {{username}}!</h1>
+          <p style="font-size: 20px; font-weight: lighter;">You have successfully logged in to our system.</p>
+          <br>
+          <div class="card-action white-text" style="border-top:1px solid">
+          </div>      
+            <p style="font-size: 17px;">Thanks to material css for making wonderful responsive UI to make development fast.</p>
+            <button (click)='logout()' class="waves-effect waves-light btn-large white teal-text" style="font-size:18px; border-radius: 5px; margin-top:2%; font-weight: 500;" id="login" type="button" >Log out</button>            
+            &nbsp;<button [routerLink]='["/employee"]' class="waves-effect waves-light btn-large white teal-text" style="font-size:18px; border-radius: 5px; margin-top:2%; font-weight: 500;" id="login" type="button" >Employee Management</button>            
+        </div>
+  </div>
+</div>  

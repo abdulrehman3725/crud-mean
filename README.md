@@ -1,4 +1,7 @@
-# crud-mean
+# CRUD-MEAN
+
+[![Build Status](https://travis-ci.org/angular/angular.svg?branch=master)](https://travis-ci.org/angular/angular)
+[![npm version](https://badge.fury.io/js/%40angular%2Fcore.svg)](https://www.npmjs.com/@angular/core)
 
 ### MEAN Stack CRUD Operations - MEAN Stack Beginners Tutorial
 https://www.youtube.com/watch?v=UYh6EvpQquw
